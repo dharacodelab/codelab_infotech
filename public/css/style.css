@@ -1,0 +1,444 @@
+.home-section {
+    background: #0D162F;
+}
+
+.nav-item {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 125px;
+}
+
+.active {
+    color: #FF6917 !important;
+    border-bottom: 2px solid #FF6917;
+}
+
+.nav-item>a:hover {
+    color: #FF6917;
+    border-bottom: 2px solid #FF6917;
+}
+
+.nav-item>a {
+    margin-right: 20px;
+}
+
+.active::before {
+    border-bottom: 2px solid #FF6917;
+    width: 50%;
+}
+
+.nav-link {
+    display: inline !important;
+    color: #717D9C;
+}
+
+.home-text-small {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.home-text {
+    font-weight: 700;
+    font-size: 75px;
+    /*line-height: 10px;*/
+}
+
+.learn-more-btn-1 {
+    background: #DD6929;
+    border-radius: 0px;
+}
+
+.learn-more-btn-2 {
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    border-radius: 0px;
+}
+
+.img {
+    width: 1108px;
+    height: 713px;
+}
+
+.text-primary {
+    color: #FF6917 !important;
+}
+
+.text-blue {
+    color: #01D2FF !important;
+}
+
+.about-text {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 75px;
+}
+
+.about-img {
+    position: absolute;
+    border-radius: 35px;
+    width: 370px;
+    height: 375px;
+    /*left: 171px;*/
+    /*top: 400.13px;*/
+
+}
+
+.about-img-box {
+    box-sizing: border-box;
+    position: absolute;
+    width: 367.38px;
+    height: 336.93px;
+    left: 87.05px;
+    top: 22.13px;
+    border: 60px solid #DD6929;
+    transform: rotate(-46.11deg);
+}
+
+.video-player {
+    box-sizing: border-box;
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    border: 3px solid #C56632;
+}
+
+.video-player-btn {
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    border-radius: 100%;
+    background: #DD6929;
+}
+
+.video-img {
+    width: 25px;
+}
+
+.service-card {
+    width: 479px;
+    height: 384px;
+    background: rgba(255, 255, 255, 0.07);
+}
+
+.top-card-one {
+    position: absolute;
+    border-radius: 100%;
+    width: 175px;
+    height: 175px;
+    margin-left: 155px;
+    top: 1289px !important;
+    left: auto;
+    background: rgba(228, 93, 77, 0.1);
+}
+
+.top-card-two {
+    position: absolute;
+    border-radius: 100%;
+    width: 160px;
+    height: 160px;
+    background: rgba(228, 93, 77, 0.1);
+}
+
+.top-card-right-two {
+    position: absolute;
+    border-radius: 100%;
+    width: 160px;
+    height: 160px;
+    background: rgba(6, 147, 177, 0.05);
+    box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.13);
+}
+
+.top-card-three {
+    position: absolute;
+    border-radius: 100%;
+    width: 145px;
+    height: 145px;
+    background: rgba(228, 93, 77, 0.1);
+}
+
+.top-card-right-three {
+    position: absolute;
+    border-radius: 100%;
+    width: 145px;
+    height: 145px;
+    background: rgba(6, 147, 177, 0.05);
+    box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.13);
+}
+
+.top-card-four {
+    position: absolute;
+    border-radius: 100%;
+    width: 130px;
+    height: 130px;
+    background: rgba(244, 110, 94, 0.04);
+    box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.13);
+}
+
+.top-card-right-four {
+    position: absolute;
+    border-radius: 100%;
+    width: 130px;
+    height: 130px;
+    background: rgba(6, 147, 177, 0.04);
+    box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.13);
+}
+
+.top-card-five {
+    position: absolute;
+    border-radius: 100%;
+    width: 115px;
+    height: 115px;
+    background: rgba(240, 99, 82, 0.14);
+    box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.13);
+}
+
+.top-card-right-five {
+    position: absolute;
+    border-radius: 100%;
+    width: 115px;
+    height: 115px;
+    background: rgba(6, 147, 177, 0.04);
+    box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.13);
+}
+
+.top-card-six {
+    position: absolute;
+    border-radius: 100%;
+    width: 98px;
+    height: 98px;
+    background: rgba(240, 99, 82, 0.14);
+    box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.13);
+}
+
+.top-card-right-six {
+    position: absolute;
+    border-radius: 100%;
+    width: 98px;
+    height: 98px;
+    background: rgba(6, 147, 177, 0.04);
+    box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.13);
+}
+
+.top-card {
+    position: absolute;
+    border-radius: 100%;
+    width: 82px;
+    height: 82px;
+    background: #F06352;
+    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.1);
+}
+
+.top-right-card {
+    position: absolute;
+    border-radius: 100%;
+    width: 82px;
+    height: 82px;
+    background: #0693B1;
+    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.1);
+}
+
+.top-card-right-one {
+    position: absolute;
+    border-radius: 100%;
+    width: 175px;
+    height: 175px;
+    margin-left: 685px;
+    top: 1289px !important;
+    left: auto;
+    background: rgba(6, 147, 177, 0.1);
+}
+
+.top-card-down-one {
+    position: absolute;
+    border-radius: 100%;
+    width: 175px;
+    height: 175px;
+    top: -95px;
+    margin-left: 155px;
+    left: auto;
+    background: rgba(6, 147, 177, 0.1);
+}
+
+.top-card-right-down-one {
+    position: absolute;
+    border-radius: 100%;
+    width: 175px;
+    height: 175px;
+    top: -95px;
+    margin-left: 155px;
+    left: auto;
+    background: rgba(228, 93, 77, 0.1);
+}
+
+.top-card-down-two {
+    position: absolute;
+    border-radius: 100%;
+    top: 8px;
+    width: 158px;
+    height: 158px;
+    background: rgba(6, 147, 177, 0.05);
+    box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.13);
+}
+
+.top-card-right-down-two {
+    position: absolute;
+    border-radius: 100%;
+    top: 8px;
+    width: 158px;
+    height: 158px;
+    background: rgba(6, 147, 177, 0.05);
+    background: rgba(228, 93, 77, 0.1);
+}
+
+.top-card-down-three {
+    position: absolute;
+    border-radius: 100%;
+    top: 8px;
+    width: 143px;
+    height: 143px;
+    background: rgba(6, 147, 177, 0.05);
+    box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.13);
+}
+
+.top-card-right-down-three {
+    position: absolute;
+    border-radius: 100%;
+    top: 8px;
+    width: 143px;
+    height: 143px;
+    background: rgba(6, 147, 177, 0.05);
+    background: rgba(228, 93, 77, 0.1);
+}
+
+.top-card-down-four {
+    position: absolute;
+    border-radius: 100%;
+    top: 8px;
+    width: 128px;
+    height: 128px;
+    background: rgba(6, 147, 177, 0.04);
+    box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.13);
+}
+
+.top-card-right-down-four {
+    position: absolute;
+    border-radius: 100%;
+    top: 8px;
+    width: 128px;
+    height: 128px;
+    background: rgba(244, 110, 94, 0.04);
+    box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.13);
+}
+
+.top-card-down-five {
+    position: absolute;
+    border-radius: 100%;
+    top: 8px;
+    width: 113px;
+    height: 113px;
+    background: rgba(6, 147, 177, 0.04);
+    box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.13);
+}
+
+.top-card-right-down-five {
+    position: absolute;
+    border-radius: 100%;
+    top: 8px;
+    width: 113px;
+    height: 113px;
+    background: rgba(240, 99, 82, 0.14);
+    box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.13);
+}
+
+.top-card-down-six {
+    position: absolute;
+    border-radius: 100%;
+    top: 8px;
+    width: 96px;
+    height: 96px;
+    background: rgba(6, 147, 177, 0.04);
+    box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.13);
+}
+
+.top-card-right-down-six {
+    position: absolute;
+    border-radius: 100%;
+    top: 8px;
+    width: 96px;
+    height: 96px;
+    background: rgba(240, 99, 82, 0.14);
+    box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.13);
+}
+
+.top-down-card {
+    position: absolute;
+    border-radius: 100%;
+    top: 8px;
+    width: 80px;
+    height: 80px;
+    background: #0693B1;
+    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.1);
+}
+
+.top-right-down-card {
+    position: absolute;
+    border-radius: 100%;
+    top: 8px;
+    width: 80px;
+    height: 80px;
+    background: #F06352;
+    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.1);
+}
+
+.footer-section {
+    padding: 136px;
+    background: rgba(13, 22, 47, 0.91);
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.address-card {
+    background: #C86834;
+    border: 1px solid #FFFFFF;
+    color: white;
+    padding: 10px;
+    border-radius: 0px;
+}
+
+.contact-card {
+    background: #FEFEFE;
+    border: 1px solid #FCFCFC;
+    color: black;
+    border-radius: 0px;
+    height: 405px;
+    padding: 10px;
+}
+
+.form-control {
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid #333;
+    width: 100%;
+    background: none;
+    font-weight: 600; }
+.form-control::-webkit-input-placeholder {
+    color: #333; }
+.form-control::-moz-placeholder {
+    color: #333; }
+.form-control:-ms-input-placeholder {
+    color: #333; }
+.form-control:-moz-placeholder {
+    color: #333; }
+
+.contact-btn {
+    background: #0D162F;
+    border-radius: 0px;
+    width: 110px;
+}
+

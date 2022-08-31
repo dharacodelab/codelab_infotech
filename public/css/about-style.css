@@ -1,0 +1,15 @@
+.about-li {
+    list-style-image: url("../images/about-li.png");
+    size: A5;
+}
+
+.about-box-two {
+    position: absolute;
+    width: 100%;
+    background: #FFFFFF;
+}
+
+.about-image-box {
+    border: white 1px;
+    border-radius: 10px;
+}
